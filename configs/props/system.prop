@@ -1,0 +1,38 @@
+# Audio
+ro.config.media_vol_default=8
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_default=10
+ro.config.vc_call_vol_steps=11
+
+# Camera
+vendor.camera.aux.packagelist.ext=org.codeaurora.snapcam,com.android.camera
+persist.vendor.camera.aon.cameraId=8
+persist.vendor.camera.aon8475.cameraId=9
+
+# Fingerprint
+sys.fp.miui.token=0
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# LMK
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+ro.lmk.psi_complete_stall_ms=70
+ro.lmk.swap_free_low_percentage=20
+ro.lmk.swap_util_max=90
+ro.lmk.thrashing_limit=30
+ro.lmk.thrashing_limit_decay=50
+
+# Netflix
+ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
+ro.netflix.signup=1
+
+# NFC
+ro.nfc.port=I2C
+
+# Storage.xml moment
+persist.sys.binary_xml=false
+
+# Zygote
+zygote.critical_window.minute=10

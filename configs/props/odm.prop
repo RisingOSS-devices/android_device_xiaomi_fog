@@ -1,0 +1,9 @@
+# Audio
+aaudio.mmap_policy=2
+ro.vendor.audio.sdk.fluencetype=none
+vendor.audio.feature.dynamic_ecns.enable=false
+vendor.audio.hw.aac.encoder=false
+vendor.audio.offload.buffer.size.kb=256
+
+# Media
+media.settings.xml=/vendor/etc/media_profiles_khaje.xml
