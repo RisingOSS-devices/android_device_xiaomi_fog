@@ -151,17 +151,9 @@ void vendor_load_properties() {
         heapstartsize = "8m";
         heapgrowthlimit = "192m";
         heapsize = "512m";
-        heaptargetutilization = "0.6";
+        heaptargetutilization = "0.75";
         heapminfree = "8m";
         heapmaxfree = "16m";
-    } else {
-        // from - phone-xhdpi-2048-dalvik-heap.mk
-        heapstartsize = "8m";
-        heapgrowthlimit = "192m";
-        heapsize = "512m";
-        heaptargetutilization = "0.75";
-        heapminfree = "512k";
-        heapmaxfree = "8m";
     }
 
     property_override("dalvik.vm.heapstartsize", heapstartsize);
