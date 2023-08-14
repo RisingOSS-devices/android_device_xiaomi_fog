@@ -85,7 +85,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-service
 
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/fog-miuicamera/config.mk)
+$(call inherit-product-if-exists, device/xiaomi/sm6225-common-miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
