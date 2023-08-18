@@ -157,4 +157,8 @@ void vendor_load_properties() {
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+
+    // Set RisingOS Stuff
+    property_override("ro.rising.maintainer", "Notkerd");
+    property_override("ro.rising.chipset", "Snapdragon 680");
 }
